@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do list</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Fuzzy+Bubbles&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="div-first"></div>
+    <div id="div-second"></div>
+    <div id="div-third"></div>
+    <div id="div-fourth"></div>
+    <div id="div-fifth"></div>
+    <div id="div-tasks-box">
+        <img src="/Imagens/ToDo-list-.png" alt="To Do List">
+        <header>
+            <h1>Minha Lista de Tarefas</h1>
+            <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        </header>
+
+        <input id="texto-tarefa" type="text" placeholder="Digite aqui a sua tarefa!">
+        <button id="criar-tarefa">Adicionar Tarefa</button>
+        <div id="divListOfTasks">
+            <ol id="lista-tarefas">
+            </ol>
+        </div>
+        <div id="div-buttons">
+            <button id="salvar-tarefas" class="function-buttons">Salvar Lista</button>
+            <button id="mover-cima" class="function-buttons">UP&uArr;</button>
+            <button id="mover-baixo" class="function-buttons">DOWN&dArr;</button>
+            <button id="remover-selecionado" class="function-buttons">Remover Selecionado</button>
+            <button id="remover-finalizados" class="function-buttons">Remover <span>Finalizados</span></button>
+            <button id="apaga-tudo" class="function-buttons">Apagar Tudo</button>
+        </div>
+    </div>
+    
+</body>
+
+<script src="/script.js"></script>
+
+</html>

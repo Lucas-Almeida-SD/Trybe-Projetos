@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#div-first {
+  background-color: rgb(174 , 233 , 240);
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 0;
+}
+
+#div-second {
+  background-color: rgb(194 , 245 , 225);
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 20%;
+}
+
+#div-third {
+  background-color: rgb(250 , 252 , 220);
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 40%;
+}
+
+#div-fourth {
+  background-color: rgb(205 , 226 , 183);
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 60%;
+}
+
+#div-fifth {
+  background-color: rgb(171 , 212 , 176);
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 80%;
+}
+
+#div-tasks-box {
+  border: 10px solid black;
+  box-shadow: 0 0 20px black;
+  margin: 50px 20%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+#div-tasks-box img {
+  width: 100px;
+  right: 10px;
+  float: right;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 15px 0 20px;
+  font-family: Permanent Marker, cursive;
+  font-weight: 200;
+}
+
+header p {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#texto-tarefa {
+  width: 300px;
+  height: 20px;
+  font-size: 15px;
+  font-family: Fuzzy Bubbles, cursive;
+}
+
+#criar-tarefa {
+  font-size: 15px;
+  font-family: Acme, sans-serif;
+  padding: 2px;
+}
+
+#lista-tarefas {
+  margin: 20px 0;
+  background-color: rgb(230 , 230 , 230);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+li {
+  margin-left: 40px;
+  font-size: 18px;
+  padding: 2px;
+  border-bottom: 1px solid black;
+  font-family: Fuzzy Bubbles, cursive;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#div-buttons {
+  text-align: center;
+}
+
+.function-buttons {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 45px;
+  font-family: Acme, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.function-buttons span {
+  text-decoration: line-through;
+}
+
+#salvar-tarefas {
+  background-color: rgb(62 , 250 , 0);
+}
+
+#mover-cima {
+  background-color: rgb(110 , 225 , 231);
+}
+
+#mover-baixo {
+  background-color: rgb(92 , 189 , 194);
+}
+
+#remover-selecionado {
+  background-color: gray;
+}
+
+#remover-finalizados {
+  background-color: rgb(255 , 128 , 1);
+}
+
+#apaga-tudo {
+  background-color: rgb(242 , 0 , 0);
+}

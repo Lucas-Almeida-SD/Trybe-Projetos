@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Color Guess Project</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Creepster&family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="background"></div>
+  
+  <header>
+    <h1 id="title">
+      <span id="first-game-title" class="selected-game">Adivinhe a cor</span>
+      <span id="second-game-title">Refaça a Sequência</span>
+    </h1>
+  </header>
+  
+  <main>
+    <div id="scoreboard">
+      <p>Score: <span id="score">0</span></p>
+      <button id="level-button">Dificuldade: <span id="level">Normal</span></button>
+    </div>
+    
+    <div id="game">
+      <p id="rgb-color"></p>
+      <p id="ask">Qual cor o valor RGB acima representa?</p>
+      <p id="answer">Escolha uma cor</p>
+      <div id="color-list">
+      </div>
+      <button id="reset-game">Reiniciar Cores</button><br>
+    </div>
+  </main>
+
+  <aside id="repeat-sequence-game">
+    <div id="scoreboard-second-game">
+      <p>Score: <span id="score-second-game">0</span></p>
+      <button id="level-button-second-game">Dificuldade: <span id="level-second-game">Normal</span></button>
+    </div>
+    <div id="second-game">
+      <p id="answer-second-game">Aperte em INICIAR/REINICIAR</p>
+      <p id="time"></p>
+      <div id="color-list-second-game"></div>
+      <div id="color-list-to-repeat"></div>
+      <button id="confirm-sequence-button"></button>
+      <button id="reset-second-game">Iniciar/Reiniciar</button><br>
+    </div>
+  </aside>
+
+  <script type="text/javascript" src="/script.js"></script>
+  <script type="text/javascript" src="/script2.js"></script>
+</body>
+
+</html>
