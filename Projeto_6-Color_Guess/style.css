@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  background-image: url('/imgs/question-mark.jpg');
+  position: fixed;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: black;
+  opacity: 0.9;
+  position: relative;
+}
+
+#first-game-title , #second-game-title {
+  font-size: 50px;
+  font-family: Creepster, cursive;
+  font-weight: 500;
+  display: inline-block;
+  color: white;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+#first-game-title:hover , #second-game-title:hover {
+  color: blue;
+}
+
+.selected-game {
+  background-color: rgb(100, 100, 100);
+  border-radius: 12px 0 12px 12px;
+}
+
+main {
+  text-align: center;
+  border: 5px solid black;
+  box-shadow: 0 0 10px black;
+  margin: 0 30%;
+  position: relative;
+  background-color: white;
+}
+
+#scoreboard {
+  font-size: 30px;
+  margin: 15px 0 0;
+  padding: 10px;
+  border-bottom: 5px solid black;
+}
+
+#scoreboard p {
+  font-family: Alfa Slab One, cursive;
+  font-size: 35px;
+  margin: 10px;
+}
+
+#rgb-color , #ask , #answer {
+  font-family: Fuzzy Bubbles, cursive;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#rgb-color {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#color-list {
+  margin: 15px 30px;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+#reset-game , #level-button {
+  font-family: Acme, sans-serif;
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 15px;
+}
+
+#repeat-sequence-game {
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 0 0 10px black;
+  margin: 0 30% 30px;
+  display: none;
+  position: relative;
+  background-color: white;
+}
+
+#scoreboard-second-game {
+  font-size: 30px;
+  margin: 15px 0 0;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+
+#scoreboard-second-game p {
+  font-family: Alfa Slab One, cursive;
+  font-size: 35px;
+  margin: 10px;
+}
+
+#answer-second-game {
+  font-family: Fuzzy Bubbles, cursive;
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+#time {
+  font-family: Fuzzy Bubbles, cursive;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+#color-list-second-game {
+  margin: 15px 40px;
+}
+
+#color-list-to-repeat {
+  margin: 15px 30px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+#level-button-second-game , #confirm-sequence-button , #reset-second-game {
+  font-family: Acme, sans-serif;
+  font-size: 22px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#level-button-second-game {
+  margin-bottom: 10px;
+}
+
+#confirm-sequence-button {
+  background-color: chartreuse;
+  margin: 20px 0;
+  display: none;
+}
+
+#reset-second-game {
+  margin: 20px 15px;
+}
+
