@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.header div , .header h1 , .header form {
+  width: 30%;
+}
+
+#div-logo , .trybewarts-header-logo {
+  height: 100%;
+  margin-left: 30px;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+  font-family: Harry Potter, sans-serif;
+  padding-top: 20px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.trybewarts-login input {
+  width: 140px;
+  height: 25px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  border: 1px solid black;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  font-family: Acme, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Harry Potter, sans-serif;
+  margin-top: 20px;
+}
+
+#input-name-lastname {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#input-name , #input-lastname {
+  width: 45%;
+}
+
+#input-email-select {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#input-email , #divHouse {
+  width: 45%;
+}
+
+#divHouse {
+  display: flex;
+}
+
+#house {
+  width: 100%;
+  margin-left: 20px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#family-content {
+  display: flex;
+}
+
+#family-radio {
+  width: 180px;
+  border-right: 1px solid rgb(0, 0, 0, 0.25);
+  margin-left: 20px;
+}
+
+#section-subjects {
+  margin-left: 50px;
+}
+
+#content-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content-checkbox div {
+  width: 30%;
+}
+
+#title-content {
+  width: 100%;
+}
+
+#section-assessment-trybewarts {
+  display: flex;
+}
+
+#title-assessment-trybewarts {
+  width: 40%;
+  margin-left: 20px;
+}
+
+#assessment-trybewarts {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textarea {
+  margin-left: 20px;
+}
+
+#textarea {
+  resize: none;
+  width: 93%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#counter {
+  margin-left: 20px;
+}
+
+#sectionAgreement , #sectionBtnSubmit {
+  text-align: center;
+}
+
+#submit-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  font-family: Harry Potter, sans-serif;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+
+#titleFooter {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.result {
+  margin: 10px 0 0 10px;
+  font-size: 25px;
+}
