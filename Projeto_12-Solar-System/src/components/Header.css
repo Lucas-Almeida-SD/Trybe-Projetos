@@ -1,0 +1,26 @@
+header {
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+header .sol {
+  margin-right: 8px;
+  width: 80px;
+}
+
+header .lua {
+  margin-left: 12px;
+  width: 60px;
+}
+
+header h1 {
+  background-clip: text;
+  background-image: linear-gradient(to bottom, yellow, red);
+  font-family: Permanent Marker , cursive;
+  font-size: 60px;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,87 @@
+:root {
+
+  --cinza-claro: rgb(225, 229, 235);
+
+  --cinza1: rgb(62, 66, 75);
+}
+
+.solar-system {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0 30px;
+}
+
+.solar-system h2 {
+  border-bottom: 2px solid var(--cinza1);
+  color: white;
+  font-family: Acme , sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding: 20px 0 10px;
+  text-align: center;
+  width: 90%;
+}
+
+.solar-system div {
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 12px var(--cinza1);
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  margin: 16px;
+  width: 250px;
+}
+
+.solar-system div:hover {
+  background-color: var(--cinza-claro);
+  color: black;
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+.solar-system img {
+  margin-bottom: 8px;
+}
+
+.solar-system .Júpiter img {
+  width: 100%;
+}
+
+.solar-system .Saturno img {
+  width: 100%;
+}
+
+.solar-system .Urano img {
+  width: 70%;
+}
+
+
+.solar-system .Netuno img {
+  width: 60%;
+}
+
+.solar-system .Terra img {
+  width: 40%;
+}
+
+.solar-system .Vênus img {
+  width: 35%;
+}
+
+.solar-system .Marte img {
+  width: 20%;
+}
+
+.solar-system .Mercúrio img {
+  width: 10%;
+}
+
+.solar-system div p {
+  font-family: Fuzzy Bubbles , cursive;
+  font-size: 18px;
+}

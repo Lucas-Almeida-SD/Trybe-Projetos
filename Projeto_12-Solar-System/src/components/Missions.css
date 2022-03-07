@@ -1,0 +1,61 @@
+:root {
+
+  --cinza1: rgb(62, 66, 75);
+
+  --cinza2: rgb(40, 42, 47);
+}
+
+.missions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missions h2 {
+  border-bottom: 2px solid var(--cinza1);
+  color: white;
+  font-family: Acme , sans-serif;
+  font-size: 36px;
+  margin: 30px 0 20px;
+  padding: 20px 0 10px;
+  text-align: center;
+  width: 90%;
+}
+
+.missions div {
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 12px var(--cinza1);
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 16px;
+  padding: 12px 0;
+  width: 250px;
+}
+
+.missions div:hover {
+  transform: translateY(-8px);
+}
+
+.missions div p:nth-child( 1 ) {
+  border-bottom: 1px solid var(--cinza1);
+  font-family: Alfa Slab One , cursive;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  padding-left: 10%;
+  width: 100%;
+}
+
+.missions div p:nth-child( n+2 ) {
+  border-bottom: 1px dotted var(--cinza2);
+  font-family: Josefin Sans , sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  width: 80%;
+}
