@@ -1,0 +1,175 @@
+:root {
+  --verde-escuro: rgb(3, 107, 82);
+  --verde-claro: rgb(47, 193, 140);
+  --roxo-escuro: rgb(65, 25, 127);
+  --roxo-claro: rgb(137, 88, 163);
+  --azul-claro: rgb(0, 213, 226);
+  --azul-escuro: rgb(0, 109, 251);
+  --cinza-claro: rgb(225, 229, 235);
+  --cinza-input: rgb(206, 212, 218);
+  --cinza1: rgb(62, 66, 75);
+  --cinza2: rgb(40, 42, 47);
+  --cinza3: rgb(30, 31, 36);
+  --cinza4: rgb(26, 27, 28);
+} 
+
+.create-card {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--cinza2);
+  padding-bottom: 32px;
+}
+
+.create-card .form-section {
+  width: 50%;
+  border-right: 1px solid var(--cinza2);
+}
+
+.create-card .form-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 28px;
+  font-weight: 200;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.create-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+  width: 60%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.create-card form div , .create-card form p {
+  margin-bottom: 12px;
+}
+
+.create-card form h2 , .create-card form div {
+  width: 80%;
+}
+
+.create-card form h2 {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.create-card form div label {
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+}
+
+.create-card form div .input-text-label ,
+.create-card form div input[type=text] ,
+.create-card form div textarea ,
+.create-card form div select {
+  width: 100%;
+}
+
+.create-card form div input[type=text] ,
+.create-card form div input[type=number] ,
+.create-card form div textarea  {
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 14px;
+  padding: 4px;
+  outline: none;
+  border: 2px solid var(--cinza-input);
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+.create-card form div input[type=text]:focus ,
+.create-card form div input[type=number]:focus ,
+.create-card form div textarea:focus ,
+.create-card form div select:focus {
+  outline: 3px solid #b7d4fc;
+  border: 2px solid #b7d4fc;
+}
+
+.create-card form div textarea {
+  resize: none;
+}
+
+.create-card form div label.input-number-label {
+  display: inline-block;
+  width: 20%;
+}
+
+.create-card form div input[type=number] {
+  width: 80%;
+}
+
+.create-card form .pts-div {
+  font-family: 'Fuzzy Bubbles', cursive;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-card form .cardImage {
+  display: flex;
+  align-items: center;
+}
+
+.create-card form .cardImage label {
+  width: 30%;
+}
+
+.create-card form .cardImage input {
+  width: 70%;
+}
+
+.create-card form div select {
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 14px;
+  padding: 4px;
+  border: 2px solid var(--cinza-input);
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 2px;
+}
+
+.create-card form .cardTrunfo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.create-card form #cardTrunfo-checkbox {
+  align-self: center;
+  border-image: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 8px;
+  border: 1px solid var(--cinza-input);
+  margin-right: 10px;
+}
+
+.create-card form p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+
+}
+
+.create-card form button {
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 4px black;
+  padding: 4px 18px;
+  width: auto;
+  margin-top: 4px;
+}
+
+.create-card form button:enabled {
+  background-color: #1EC398;
+  cursor: pointer;
+}

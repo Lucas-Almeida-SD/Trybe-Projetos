@@ -1,0 +1,204 @@
+:root {
+  --cinza-claro: rgb(225, 229, 235);
+  --cinza-input: rgb(206, 212, 218);
+  --cinza1: rgb(62, 66, 75);
+  --cinza2: rgb(40, 42, 47);
+  --cinza3: rgb(30, 31, 36);
+  } 
+
+.preview-section {
+  font-weight: 100;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 28px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.card-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.card-background-image {
+  background-image: url('../helpers/images/avengers.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.card {
+  font-family: 'Acme', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 14px 12px;
+  height: 420px;
+  width: 300px;
+}
+
+.normal-card {
+  background-image: linear-gradient(
+    45deg,
+    rgb(25, 43, 104, 0.7),
+    rgb(65, 199, 220, 0.7),
+    rgb(25, 43, 104, 0.7)
+  );
+}
+
+.super-trunfo-card {
+  background-image: linear-gradient(
+    45deg,
+    rgb(168, 56, 153, 0.7),
+    rgb(87, 91, 186, 0.7),
+    rgb(168, 56, 153, 0.7)
+  );
+}
+
+.card .name-card , 
+.card .rare-type {
+  text-align: center;
+  padding: 2px 0;
+  background-color: var(--cinza2);
+  box-shadow: 0 0 4px var(--cinza-input);
+  border-radius: 20px;
+}
+
+.card .name-card {
+  font-size: 18px;
+  margin-bottom: 8px;
+  height: 26px;
+  width: 100%;
+}
+
+.card .rare-type {
+  font-size: 16px;
+  margin-bottom: 8px;
+  height: 24px;
+  width: 100%;
+}
+
+.card .image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+  position: relative;
+  height: 164px;
+  width: 100%;
+}
+
+.card .image-div img {
+  border-radius: 10px;
+  box-shadow: 0 0 6px var(--cinza-input);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card .image-div .super-trunfo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--cinza3);
+  box-shadow: 0 0 4px var(--cinza-input);
+  border-radius: 50%;
+  transform: rotate(-30deg);
+  height: 65px;
+  width: 65px;
+}
+
+.card .image-div .super-trunfo-background {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #F7D40A, #ED3C3F, #F7D40A);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 70px;
+}
+
+.card .image-div .super-trunfo-background .super-trunfo {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card .description-card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cinza2);
+  box-shadow: 0 0 4px var(--cinza-input);
+  border-radius: 10px;
+  padding: 0 8px;
+  margin-bottom: 12px;
+  height: 50px;
+  width: 100%;
+}
+
+.card .description-card-div  p {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.card .attributes-div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--cinza2);
+  box-shadow: 0 0 4px var(--cinza-input);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.card div {
+  display: flex;
+  width: 100%;
+  margin: 2px;
+}
+
+.card div .title {
+  font-size: 16px;
+  text-align: center;
+  width: 25%;
+}
+
+.card div meter {
+  height: 20px;
+  width: 60%;
+}
+
+.card div meter::-webkit-meter-bar {
+  background: var(--cinza2);
+  box-shadow: 0 0 1px var(--cinza-input);
+}
+
+.card div meter::-webkit-meter-optimum-value {
+  background: #35C5C7;
+  border-radius: 20px;
+}
+
+.card div .value {
+  font-size: 16px;
+  text-align: center;
+  width: 15%;
+}

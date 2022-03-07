@@ -1,0 +1,178 @@
+:root {
+  --verde-escuro: rgb(3, 107, 82);
+  --verde-claro: rgb(47, 193, 140);
+  --roxo-escuro: rgb(65, 25, 127);
+  --roxo-claro: rgb(137, 88, 163);
+  --azul-claro: rgb(0, 213, 226);
+  --azul-escuro: rgb(0, 109, 251);
+  --cinza-claro: rgb(225, 229, 235);
+  --cinza-input: rgb(206, 212, 218);
+  --cinza1: rgb(62, 66, 75);
+  --cinza2: rgb(40, 42, 47);
+  --cinza3: rgb(30, 31, 36);
+  --cinza4: rgb(26, 27, 28);
+} 
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.playerI-section ,
+.playerII-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.playerI-section {
+  align-items: flex-end;
+  padding-right: 4%;
+}
+
+.playerII-section {
+  align-items: flex-start;
+  padding-left: 4%;
+}
+
+.player-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-card .player-i , 
+.player-card .player-ii ,
+.player-card .winner ,
+.player-card .try-again
+{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+
+.player-card .winner {
+  background-image: linear-gradient(0deg, #139142, #FCE125);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.player-card .try-again {
+  background-image: linear-gradient(180deg, #DA292C, #8F1B1D);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.playerI-section .defeat .card-border ,
+.playerII-section .defeat .card-border
+{
+
+  background-color: #D5082F;
+}
+
+.next-turn-button {
+  font-family: 'Fuzzy Bubbles', cursive;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+  background-color: #1EC398;
+  box-shadow: 0 0 6px black;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.next-turn-button:hover
+{
+  transform: scale(1.1);
+}
+
+.cards-number-text {
+  font-family: 'Acme', cursive;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.playerI-section .next-card-button ,
+.playerI-section .attr-div button,
+.playerII-section .next-card-button ,
+.playerII-section .attr-div button,
+.game .restart
+{
+  font-family: 'Fuzzy Bubbles', cursive;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+  background-color: #1EC398;
+  box-shadow: 0 0 6px black;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.playerI-section .next-card-button:hover ,
+.playerII-section .next-card-button:hover,
+.playerI-section .attr-div button:hover,
+.playerII-section .attr-div button:hover,
+.game .restart:hover
+{
+  transform: scale(1.1);
+}
+
+.game .restart {
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 32px;
+  font-weight: 900;
+  background-image: linear-gradient(45deg, #0465DF, #D5082F);
+}
+
+.playerI-section .attr-div ,
+.playerII-section .attr-div 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.playerI-section .attr-div  .select-option ,
+.playerII-section .attr-div  .select-option
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.playerI-section .attr-div  .select-option label ,
+.playerII-section .attr-div  .select-option label 
+{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.playerI-section .attr-div  .select-option select ,
+.playerII-section .attr-div  .select-option select 
+{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px;
+  border: 2px solid var(--cinza-input);
+  border-radius: 4px;
+  background-color: white;
+  outline: none;
+  margin-top: 2px;
+}
+
+.playerI-section .attr-div  .select-option select:focus  ,
+.playerII-section .attr-div  .select-option select:focus {
+  outline: 3px solid #b7d4fc;
+  border: 2px solid #b7d4fc;
+}
