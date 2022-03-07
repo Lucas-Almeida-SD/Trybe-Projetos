@@ -1,0 +1,88 @@
+:root {
+  --verde-escuro: rgb(3, 107, 82);
+  --verde-claro: rgb(47, 193, 140);
+  --roxo-escuro: rgb(65, 25, 127);
+  --roxo-claro: rgb(137, 88, 163);
+  --azul-claro: rgb(0, 213, 226);
+  --azul-escuro: rgb(0, 109, 251);
+  --cinza-claro: rgb(225, 229, 235);
+  --cinza-input: rgb(206, 212, 218);
+  --cinza1: rgb(62, 66, 75);
+  --cinza2: rgb(40, 42, 47);
+  --cinza3: rgb(30, 31, 36);
+  --cinza4: rgb(26, 27, 28);
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: linear-gradient(-270deg, #3DB5FF, #044EE3);
+}
+
+.sidebar {
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-image: linear-gradient(90deg, #10A210, #0B700B);
+  top: 110px;
+  border-radius: 0px 10px 10px 0px;
+  overflow-x: hidden;
+  width: 16px;
+}
+
+.sidebar:hover {
+  transition: 1s;
+  width: 94px;
+}
+
+.sidebar button {
+  display: flex;
+  align-items: center;
+  font-family: 'Acme', cursive;
+  background-color: transparent;
+  border: none;
+  padding: 16px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar button:hover {
+  transition: 1s;
+  color: white;
+  cursor: pointer;
+  background-color: var(--cinza2);
+}
+
+.sidebar .selected {
+  transition: 1s;
+  color: white;
+  background-color: var(--cinza2);
+}
+
+.sidebar .icon {
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--cinza2);
+  padding: 16px 0 16px 30px;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.logo .icon {
+  font-size: 60px;
+}
+
+.logo h1 {
+  font-size: 50px;
+  font-family: 'Akaya Telivigala', cursive;
+  margin-left: 8px;
+}
